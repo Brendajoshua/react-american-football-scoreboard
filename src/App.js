@@ -23,6 +23,7 @@ function App() {
   const awayFieldGoal = () => {
     setAwayScore(awayScore + 3)
   };
+  function scoreBoard(props){}
   return (
     <div className="container">
       <section className="scoreboard">
